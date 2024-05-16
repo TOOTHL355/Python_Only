@@ -48,7 +48,7 @@ while 1:
     print("1. Addition\n2. Subtraction\n3. Multiply\n4. Divide\n5. Exit")
     choice = Read_Int("Enter the operation\n", True, Range_Chk=(1, 5))
     if choice == 5:
-        print("Thank you muji for using this calc")
+        print("Thank you for using this program")
         time.sleep(2)
         break
 
